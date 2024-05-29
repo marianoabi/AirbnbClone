@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E16F324C2C06EDDB007DD107 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F324B2C06EDDB007DD107 /* ProfileView.swift */; };
+		E16F324E2C06F2E2007DD107 /* ProfileActionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F324D2C06F2E2007DD107 /* ProfileActionRowView.swift */; };
 		E1B1245E2BFEEFB6005F02CD /* AirbnbCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B1245D2BFEEFB6005F02CD /* AirbnbCloneApp.swift */; };
 		E1B124602BFEEFB6005F02CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B1245F2BFEEFB6005F02CD /* ContentView.swift */; };
 		E1B124622BFEEFB7005F02CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1B124612BFEEFB7005F02CD /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E16F324B2C06EDDB007DD107 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		E16F324D2C06F2E2007DD107 /* ProfileActionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileActionRowView.swift; sourceTree = "<group>"; };
 		E1B1245A2BFEEFB6005F02CD /* AirbnbClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirbnbClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1B1245D2BFEEFB6005F02CD /* AirbnbCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbCloneApp.swift; sourceTree = "<group>"; };
 		E1B1245F2BFEEFB6005F02CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -177,6 +181,8 @@
 		E1B124762BFEF093005F02CD /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				E16F324B2C06EDDB007DD107 /* ProfileView.swift */,
+				E16F324D2C06F2E2007DD107 /* ProfileActionRowView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1B1248E2C02E3C6005F02CD /* ListingImageCarouselView.swift in Sources */,
+				E16F324C2C06EDDB007DD107 /* ProfileView.swift in Sources */,
 				E1EEFE892C0587BC0063F062 /* DestinationSearchView.swift in Sources */,
+				E16F324E2C06F2E2007DD107 /* ProfileActionRowView.swift in Sources */,
 				E1B124602BFEEFB6005F02CD /* ContentView.swift in Sources */,
 				E1B1247A2BFEF195005F02CD /* ListingItemView.swift in Sources */,
 				E1B124782BFEF0D2005F02CD /* ExploreView.swift in Sources */,
