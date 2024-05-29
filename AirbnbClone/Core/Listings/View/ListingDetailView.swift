@@ -11,11 +11,12 @@ import MapKit
 struct ListingDetailView: View {
 
     @Environment(\.dismiss) var dismiss
-    
+    let listing: Listing
+
     var body: some View {
         ScrollView {
             ZStack(alignment: .topLeading) {
-                ListingImageCarouselView()
+                ListingImageCarouselView(listing: listing)
                     .frame(height: 320)
 
                 Button(action: {
@@ -216,5 +217,5 @@ struct ListingDetailView: View {
 }
 
 #Preview {
-    ListingDetailView()
+    ListingDetailView(listing: DeveloperPreview.shared.listings[0])
 }
